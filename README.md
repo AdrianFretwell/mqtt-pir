@@ -8,11 +8,11 @@ This implements a motion sensor as a simple SONOFF device, it implements robust
 MQTT, behaves like a Tasmota switch and is compatible with Home Assistant.
 The code is written in Micro Python.
 You can find out more about these systems at the following websites:
-[micropython.org](http://www.micropython.org).
-[mqtt.org](https://mqtt.org).
-[home-assistant.io](https://www.home-assistant.io).
-[tasmota.github.io](https://tasmota.github.io/docs).
-[espressif.com](https://www.espressif.com/en/products/socs/esp8266).
+- [micropython.org](http://www.micropython.org)
+- [mqtt.org](https://mqtt.org)
+- [home-assistant.io](https://www.home-assistant.io)
+- [tasmota.github.io](https://tasmota.github.io/docs)
+- [espressif.com](https://www.espressif.com/en/products/socs/esp8266)
 
 The program is broken up into several components because, collectively, they
 are too big to fit into the memory on an esp8266 chip.  Each component can be
