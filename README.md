@@ -20,14 +20,14 @@ run individually and in the case of files like `wifi_setup.py` could be useful
 in other projects.
 
 The components are as follows:
-- pir_installer.py -- Runs a step by step setup actually on the microcontroller,
+- `pir_installer.py` -- Runs a step by step setup actually on the microcontroller,
   it requires restarts between the stages to free memory before finally writing
   a main.py that will run th eapplication automatically on boot.
-- wifi_setup.py -- Configure WiFi settings - only required once.
-- pir_cfg.py -- Generates a configuration file for the application
-- pir_hass_setup.py -- Sends out MQTT discovery messages, that configure the
+- `wifi_setup.py` -- Configure WiFi settings - only required once.
+- `pir_cfg.py` -- Generates a configuration file for the application
+- `pir_hass_setup.py` -- Sends out MQTT discovery messages, that configure the
   device in the Home ssistant (HASS).
-- pir.py -- The application.
+- `pir.py` -- The application.
 
 The image above shows an esp8266 on a development board.  These boards make
 prototyping easy.  The GPIO pins used for this application are:
