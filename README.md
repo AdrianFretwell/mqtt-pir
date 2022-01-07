@@ -22,7 +22,7 @@ in other projects.
 The components are as follows:
 - `pir_installer.py` -- Runs a step by step setup actually on the microcontroller,
   it requires restarts between the stages to free memory before finally writing
-  a main.py that will run th eapplication automatically on boot.
+  a main.py that will run the application automatically on boot.
 - `wifi_setup.py` -- Configure WiFi settings - only required once.
 - `pir_cfg.py` -- Generates a configuration file for the application
 - `pir_hass_setup.py` -- Sends out MQTT discovery messages, that configure the
