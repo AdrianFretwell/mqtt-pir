@@ -1,7 +1,7 @@
 Home Automation Motion Sensor
 =============================
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AdrianFretwellmqtt-pir/master/readmeimages/pir_bb.jpg" alt="Fritzing Circuit Image"/>
+  <img src="https://raw.githubusercontent.com/AdrianFretwell/mqtt-pir/master/readmeimages/pir_bb.jpg" alt="Fritzing Circuit Image"/>
 </p>
 
 This implements a motion sensor as a simple SONOFF device, it implements robust
@@ -78,7 +78,7 @@ SWITCH1T = {"TRIG":"SINGLE"}
 ```
 
 Other useful software used in the development of this project are:
-MQTT Explorer - [mqtt-explorer.com](https://mqtt-explorer.com).
-Thonny - [thonny.org](https://thonny.org)
-esptool -[github.com/espressif/esptool](https://github.com/espressif/esptool)
-fritzing - [fritzing.org](https://fritzing.org/)
+- MQTT Explorer - [mqtt-explorer.com](https://mqtt-explorer.com).
+- Thonny - [thonny.org](https://thonny.org)
+- esptool -[github.com/espressif/esptool](https://github.com/espressif/esptool)
+- fritzing - [fritzing.org](https://fritzing.org/)
