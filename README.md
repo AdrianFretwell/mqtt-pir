@@ -53,13 +53,13 @@ showing also a typical debugging log output:
 ```
 
 MQTT oubound topics are:
-- tele/<device name>/STATE
-- tele/<device name>/HASS_STATE
-- stat/<device name>/POWER
-- stat/<device name>/RESULT
-- stat/<device name>/SWITCH1T
-- homeassistant/switch/<device name>_RL_1/config
-- homeassistant/sensor/<device name>_status/config
+- tele/device_name/STATE
+- tele/device_name/HASS_STATE
+- stat/device_name/POWER
+- stat/device_name/RESULT
+- stat/device_name/SWITCH1T
+- homeassistant/switch/device_name_RL_1/config
+- homeassistant/sensor/device_name_status/config
 
 MQTT inbound topics are:
 - cmnd/<device name>/MP [`stop`, `debugon`, `debugoff`, `reboot`]
