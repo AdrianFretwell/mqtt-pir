@@ -1,0 +1,14 @@
+# Logs and Databases
+######################
+*.log
+
+# Python cache files
+######################
+__pycache__/
+*.pyc
+
+# App Configuration files
+###########################
+webrepl_cfg.py
+wifi_cfg.py
+app_cfg.py
